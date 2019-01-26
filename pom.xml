@@ -30,11 +30,16 @@
   <artifactId>maven-war-plugin</artifactId>
   <version>2.4</version>
   <configuration>
-  <warSourceDirectory>webapp</warSourceDirectory>
-  <failOnMissingWebXml>false</failOnMissingWebXml>
+  <webResources>
+
+<resource>
+<directory>webapp</directory>
+
    <includes>
    <include>**/*.*</include>
    </includes>
+  </resource>
+   </webResources>
   </configuration>
   </plugin>
   </plugins>
