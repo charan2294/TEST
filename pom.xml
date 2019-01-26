@@ -33,7 +33,7 @@
   <webResources>
 
 <resource>
-<directory>webapp</directory>
+<directory>src</directory>
 
    <includes>
    <include>**/*.*</include>
